@@ -268,8 +268,8 @@ body.dark-mode .hero p {
   right: 100px;
   top: 50%;
   transform: translateY(-50%);
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   overflow: hidden;
   z-index: 2;
@@ -1201,3 +1201,4 @@ body.dark-mode .close-btn {
 body.dark-mode .side-drawer a:hover {
   color: var(--primary-color);
 }
+
