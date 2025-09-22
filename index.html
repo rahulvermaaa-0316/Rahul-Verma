@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Verma | AI/ML Enthusiast</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">MY PORTFOLIO</a>
+
+        <!-- Desktop Menu -->
+        <ul class="nav-links" id="desktopMenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Hamburger Icon -->
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+
+        <!-- Theme toggle -->
+        <button class="theme-toggle" id="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </nav>
+
+    <!-- ✅ Mobile Side Drawer -->
+    <div class="side-drawer" id="sideDrawer">
+        <button class="close-btn" id="closeBtn"><i class="fas fa-times"></i></button>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- ✅ Overlay (blur background when menu opens) -->
+    <div class="overlay" id="overlay"></div>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="background-animation" id="particles"></div>
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="typing-text" id="typing-text"></span></h1>
+            <p>“Hi, I’m Rahul — Building Intelligent Systems that Solve Real-World Problems with AI & ML. Passionate
+                about learning, coding, and turning ideas into innovative solutions..</p>
+            <a href="#projects" class="cta-button">View Projects</a>
+        </div>
+
+        <!-- Profile Circle with Glowing Effect -->
+        <div class="profile-circle">
+            <img src="rahul.jpg" alt="Rahul Verma">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="profile-img">
+                <img src="my photo.jpg" alt="Rahul Verma">
+            </div>
+            <div class="about-text">
+                <p>Hi! I’m Rahul Verma — an AI/ML & Data Science enthusiast. I love turning data into insights and
+                    building intelligent systems that solve real-world problems.</p>
+
+                 <p>  I started exploring AI during my undergraduate studies and have worked on projects involving machine
+                    learning, deep learning, NLP, and computer vision.</p> 
+
+                  <p>   My goal is to create ethical, data-driven solutions that make a positive impact in healthcare,
+                    education, and sustainability.</p>
+                <a href="Rahul Verma.pdf" class="resume-button" download="rahul-verma-resume.pdf">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card" data-tilt>
+                <i class="fab fa-python skill-icon"></i>
+                <h3 class="skill-name">Python</h3>
+                <div class="skill-progress">
+                    <div class="skill-bar" style="width: 0%;" data-width="95%"></div>
+                </div>
+            </div>
+            <div class="skill-card" data-tilt>
+                <i class="fab fa-java skill-icon"></i>
+                <h3 class="skill-name">Java</h3>
+                <div class="skill-progress">
+                    <div class="skill-bar" style="width: 0%;" data-width="85%"></div>
+                </div>
+            </div>
+            <div class="skill-card" data-tilt>
+                <i class="fab fa-html5 skill-icon"></i>
+                <h3 class="skill-name">HTML 5</h3>
+                <div class="skill-progress">
+                    <div class="skill-bar" style="width: 0%;" data-width="80%"></div>
+                </div>
+            </div>
+            <div class="skill-card" data-tilt>
+                <i class="fas fa-database skill-icon"></i>
+                <h3 class="skill-name">MySQL</h3>
+                <div class="skill-progress">
+                    <div class="skill-bar" style="width: 0%;" data-width="90%"></div>
+                </div>
+            </div>
+            <div class="skill-card" data-tilt>
+                <i class="fab fa-css3-alt skill-icon"></i>
+                <h3 class="skill-name">CSS</h3>
+                <div class="skill-progress">
+                    <div class="skill-bar" style="width: 0%;" data-width="88%"></div>
+                </div>
+            </div>
+            <div class="skill-card" data-tilt>
+                <i class="fas fa-chart-line skill-icon"></i>
+                <h3 class="skill-name">Data Science</h3>
+                <div class="skill-progress">
+                    <div class="skill-bar" style="width: 0%;" data-width="85%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card" data-tilt>  
+                <div class="project-img">
+                    <img src="newww.gif" alt="AI Chatbot">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">AI-Powered Chatbot</h3>
+                    <p class="project-desc">Developed an intelligent chatbot using NLP and machine learning algorithms 
+                        that can understand and respond to user queries with 92% accuracy.</p>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-tilt>
+                <div class="project-img">
+                    <img src="newww.gif" alt="Image Recognition">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">SwasthyaSaathi – AI Wellness Guide for Students</h3>
+                    <p class="project-desc">An AI-powered wellness companion that helps students track calories, manage daily health tasks, and build sustainable healthy habits through an interactive dashboard and smart chatbot..</p>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-tilt>
+                <div class="project-img">
+                    <img src="newww.gif" alt="Predictive Analytics">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Predictive Analytics Tool</h3>
+                    <p class="project-desc">Built a machine learning pipeline for predictive analytics that helps
+                        businesses forecast sales and customer behavior with high accuracy.</p>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="certificates" id="certificates">
+        <h2 class="section-title">Achievements & Certificates</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="certificate-card">
+                    <!-- <h1>Coming SooN</h1> -->
+                    <h3 class="certificate-title">
+                        Python (basic)
+                    </h3>
+                    <p class="certificate-org">
+                    <a href="python_basic certificate.pdf" target="_blank" rel="noopener noreferrer" class="certificate-link" style="text-decoration: none; color: #6c63ff;">HackerRank</a></p>
+                    <p class="certificate-date">Completed: Oct 2025</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="certificate-card">
+                    <h1>Coming SooN</h1>
+                    <!-- <h3 class="certificate-title">Machine Learning Engineer</h3>
+                    <p class="certificate-org">Udacity</p>
+                    <p class="certificate-date">Completed: March 2023</p> -->
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="certificate-card">
+                    <h1>Coming SooN</h1>
+                    <!-- <h3 class="certificate-title">Python for Data Science</h3>
+                    <p class="certificate-org">edX</p>
+                    <p class="certificate-date">Completed: December 2022</p> -->
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="certificate-card">
+                    <h1>Coming SooN</h1>
+                    <!-- <h3 class="certificate-title">AI Ethics Certification</h3>
+                    <p class="certificate-org">Google</p>
+                    <p class="certificate-date">Completed: September 2022</p> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form id="contactForm" action="https://formspree.io/f/mdklypre" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+
+                    <!-- ✅ Success Message Placeholder -->
+                    <p id="successMsg" class="success-msg">✅ Message sent successfully!</p>
+                </form>
+
+
+            </div>
+            <div class="contact-info">
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/rahul-verma-543777341" class="social-link"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/rahulvermaaa-0316" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://WA.me/919696491807" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/its_rahul20x" class="social-link"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+                <div class="contact-detail">
+                    <i class="fas fa-envelope"></i>
+                    <span>mr.rahulvermaaa@gmail.com</span>
+                </div>
+                <div class="contact-detail">
+                    <i class="fas fa-phone"></i>
+                    <span>+91 9696491807</span>
+                </div>
+                <div class="contact-detail">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>LUCKNOW,UP</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Rahul Verma. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
